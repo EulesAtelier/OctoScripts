@@ -8,9 +8,6 @@ public class fishLevelScript : MonoBehaviour
     public int threshhold = 5;
     public endLevelLocation ELL;
     void Update(){
-
-        if(octopus.fishEaten >= threshhold){
-            ELL.conditionMet = true;
-        }
+        if(octopus.fishEaten >= threshhold){ELL.conditionMet = true;}
     }
 }
