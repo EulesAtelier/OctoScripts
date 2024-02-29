@@ -14,7 +14,7 @@
 ### LevelScripts:
 1. ***endLevelMaster.cs*** - empty main class for future use.
     1. **endLevelLocation.cs** - Contains a bool for other scripts to access that allows the SceneChanger script to change scenes to end a level.
-2. **(levelID)LevelScript.cs** - Handles the end conditions for a level and needed visual elements such as particles.
+2. ***levelID*LevelScript.cs** - Handles the end conditions for a level and needed visual elements such as particles.
 3. **SceneChange.cs** - A utility Script for changing Scenes.
 ### Gaurds:
 1. **GaurdAI.cs** - Handles use of Navmesh agent, detecting the player, graphical changes, and 2D rotation.
